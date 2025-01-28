@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: black,
-        title: Text(
+        title: const Text(
           'Flutter Tunes',
           style: TextStyle(color: Colors.white),
         ),
